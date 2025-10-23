@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+    
+}
+#myPhoto {
+    width: 150px;         
+    height: 150px;        
+    border-radius: 50%;   
+    border: 5px ; 
+    object-fit: cover; 
+}
+#Name {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: black;
+}
+
+div p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 0.9em;
+}
+p {
+    text-align: center;
+    max-width: 300px;
+    font-size: 13px;
+    margin: 10px 0 20px;
+    color: #333;
+}
+
+#three {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+    margin-top: 15px;
+}
+
+#three  div {
+    text-align: center;
+}
+
+.number {
+    margin: 0;
+    color: #555;
+    font-size: 1em;
+}
+
+
+.Head {
+    color:black;
+    margin: 5px ;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+button {
+    border-radius: 30px;
+    background-color: skyblue;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: skyblue;
+}
+button:hover {
+    background-color: rgb(22, 175, 235);
+
+}
