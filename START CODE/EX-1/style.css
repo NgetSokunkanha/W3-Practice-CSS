@@ -1,4 +1,40 @@
 body {
     background: grey;
     font-family: sans-serif;
+    
+}
+
+div {
+    margin: 100px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    
+  
+}
+
+button {
+    border-radius: 30px;
+    border-color: white;
+    color: white;
+}
+
+#button1 {
+    background-color: burlywood;
+}
+#button1:hover {
+    background-color:  yellowgreen;
+}
+#button2 {
+    background-color: rgb(206, 161, 77);
+}
+#button2:hover {
+    background-color: orangered;
+}
+
+#button3{
+    background-color: plum;
+}
+#button3:hover {
+    background-color: purple;
 }
